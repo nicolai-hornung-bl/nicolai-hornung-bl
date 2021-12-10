@@ -1,1 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T09:19:38.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="dEa3NNxRPp45UUp2YXlw" version="15.9.1" type="github"><diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">7ZfRbpswFIafhstGgKFJLpe03Sp11apI69SbygEHrBibGTPInn7HxiRASNeLdO3FokjAfw7G/s+HbRy0zOrPEufpVxET5vhuXDvoyvF930UeHLSyaxTPQ0GjJJLGVjsIK/qbWNG1akljUvQSlRBM0bwvRoJzEqmehqUUVT9tI1j/qTlOyJGwijA7Vh9prNJ2GK57CHwhNEnto2ehDaxxtE2kKLl9HhecNJEMt83Y1CLFsag6Erp20FIKoZqzrF4Spn1tHWvuuzkR3XdZEq5ec0P5zIvHn9M6krf5/MfqCT/cexe2TL8wK60VtrNq13pTpVSRVY4jfV0BAA5apCpjcOXBKS7ypiIbWhN41MK2SKQi9cmuensDACoiMqLkDlJaolrPWp7a66pTnD08aacwBxVbJJJ96wdv4MTaM25VsfO33y9290G9uSFYBnfrh/zC+7tVxZaoSPfP7XsU4yLV3hjd+Fn0/dxQxpaCCWnaQf5sGl6DP4tCSbElncjG/CCSC8qVGWK4gL87cd3Q8Zfu5BLpgxNC9tIEPCP7A3U+qpomhpnzEw1Pzd0QH2nEG2j+bJALfxheinPtQlYnemKZbMs1kZyAPRMKr7oeprw1J1ccJp0TGI3AdpKsoA9WEB6DFY5gFczeCCr/P1TvCBXliTaSSpjBqFEKUWoOFmdAbdZHDY2g1mLVRS18q/kLHaF2T1Ql5BbEO4FjOCwwwzwi8mUGwSJGOQDUrsVa3AiuurAh/0b3bQE1iCk5xMwC+RKDQ2rbhnq46ypQWL7v8Jqwb6KgtnwZjWPd533CJ0YTHVgLpUSmlysrRNAnGGjvjRpb6fS47H7Fa8e5ssboe/Q7ZzC6QiPs4aoIJrkUcRmp2wF8vRzelOKZQSGe120ZzsKhN1hL3WMOp2MrqXsGEEf3HK9YSN9hz+G5g03HfGTT4V+OOLUXz+7UK1aHj+BUODK1/WOnjie3D+mU/5ZMweXha8LEOp9r6PoP</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-10T12:43:33.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="GGlJoOAeMLWzFtD7q1No" version="15.9.1" type="github">
+  <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
+    <mxGraphModel dx="2370" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WAL1Nagu162Jrxox40Tc-1" value="metallb LoadBalancer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="305" y="60" width="750" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-2" value="10.10.13.10" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="WAL1Nagu162Jrxox40Tc-3" target="WAL1Nagu162Jrxox40Tc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="WAL1Nagu162Jrxox40Tc-3" target="WAL1Nagu162Jrxox40Tc-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="WAL1Nagu162Jrxox40Tc-3" target="WAL1Nagu162Jrxox40Tc-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="797" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="WAL1Nagu162Jrxox40Tc-3" target="WAL1Nagu162Jrxox40Tc-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="563" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="WAL1Nagu162Jrxox40Tc-3" target="WAL1Nagu162Jrxox40Tc-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1031" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="WAL1Nagu162Jrxox40Tc-3" target="WAL1Nagu162Jrxox40Tc-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1265" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-3" value="&lt;font color=&quot;#000000&quot;&gt;nginx ingress&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="305" y="205" width="750" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WAL1Nagu162Jrxox40Tc-1" target="WAL1Nagu162Jrxox40Tc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="600" as="sourcePoint" />
+            <mxPoint x="455" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-11" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=ing;fontSize=24;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="475" y="223.5" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="430" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-12" value="ClusterIP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#FF3333;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-42">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-28" value="jenkins service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-42">
+          <mxGeometry y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-43" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="255" y="430" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-30" value="ClusterIP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#FF3333;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-43">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-31" value="awx&lt;br&gt;service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-43">
+          <mxGeometry y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-44" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="485" y="430" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-32" value="ClusterIP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#FF3333;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-44">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-33" value="consul service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-44">
+          <mxGeometry y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-46" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="955" y="430" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-36" value="ClusterIP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#FF3333;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-46">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-37" value="prometheus service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-46">
+          <mxGeometry y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1195" y="430" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-40" value="ClusterIP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#FF3333;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-47">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-41" value="grafana&lt;br&gt;service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-47">
+          <mxGeometry y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-60" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="725" y="430" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-34" value="ClusterIP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#FF3333;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-60">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAL1Nagu162Jrxox40Tc-35" value="vault&lt;br&gt;service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;" vertex="1" parent="WAL1Nagu162Jrxox40Tc-60">
+          <mxGeometry y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
